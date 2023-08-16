@@ -1,0 +1,48 @@
+{
+  "component": "ui_box",
+  "ui_components": {
+    "main_title": {
+      "text": "Hello Jetpack Compose",
+      "color": "#000000",
+      "width": 300,
+      "height": null
+    },
+    "size_box": {
+      "height": 50,
+      "width": 0
+    },
+    "login_text_fields": [
+      {
+        "lable": "Enter Email",
+        "hint_label": "Enter Email",
+        "color": "#000000",
+        "leading_icon": "",
+        "input_type": 1,
+        "margin": {
+          "top": 20,
+          "bottom": 10,
+          "left": 10,
+          "right": 10
+        }
+      },
+      {
+        "lable": "Enter Password",
+        "hint_label": "Enter Password",
+        "color": "#000000",
+        "leading_icon": "",
+        "input_type": 2,
+        "margin": {
+          "top": 10,
+          "bottom": 30,
+          "left": 10,
+          "right": 10
+        }
+      }
+    ],
+    "box": {
+      "width": 300,
+      "height": 300,
+      "color": "#000000"
+    }
+  }
+}

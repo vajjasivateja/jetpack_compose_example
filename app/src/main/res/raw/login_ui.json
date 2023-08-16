@@ -1,0 +1,79 @@
+{
+  "screen_name": "login_screen",
+  "content": [
+    {
+      "type": "text",
+      "attributes": {
+        "text": "Hello Jetpack Compose",
+        "color": "#000000",
+        "padding": {
+          "top": 10,
+          "bottom": 10,
+          "left": 10,
+          "right": 10
+        },
+        "margin": {
+          "top": 10,
+          "bottom": 10,
+          "left": 10,
+          "right": 10
+        }
+      }
+    },
+    {
+      "type": "text_field",
+      "attributes": {
+        "margin": {
+          "top": 10,
+          "bottom": 10,
+          "left": 10,
+          "right": 10
+        }
+      },
+      "components": [
+        {
+          "label": "Enter Email",
+          "hint_label": "Enter Email",
+          "color": "#000000",
+          "hint_color": "#000000",
+          "input_type": 1
+        },
+        {
+          "label": "Enter Password",
+          "hint_label": "Enter Password",
+          "color": "#000000",
+          "hint_color": "#000000",
+          "input_type": 2
+        }
+      ]
+    },
+    {
+      "type": "button",
+      "attributes": {
+        "text": "Login",
+        "color": "#FFFFFF",
+        "background_color": "#000000",
+        "padding": {
+          "top": 10,
+          "bottom": 10,
+          "left": 10,
+          "right": 10
+        },
+        "margin": {
+          "top": 10,
+          "bottom": 10,
+          "left": 10,
+          "right": 10
+        }
+      }
+    },
+    {
+      "type": "box",
+      "attributes": {
+        "width": 300,
+        "height": 100,
+        "color": "#000000"
+      }
+    }
+  ]
+}
